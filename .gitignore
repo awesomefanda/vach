@@ -1,0 +1,70 @@
+# .gitignore - Vach (minimal, safe defaults)
+
+# Byte-compiled / caching
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtualenvs
+venv/
+.venv/
+env/
+ENV/
+
+# SQLite / DB files
+data/*.db
+data/*.db-journal
+*.db
+*.sqlite
+*.sqlite3
+
+# Repository data directories (do not commit large raw data)
+data/raw/
+data/processed/
+
+# Logs
+logs/
+*.log
+
+# Environment / secrets
+.env
+.env.*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checking
+.mypy_cache/
+
+# Temp / backups
+*.tmp
+*.bak
+*~
+*.swp
+*.swo
+
+# Other
+pip-log.txt
